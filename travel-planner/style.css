@@ -1,0 +1,27 @@
+body{
+    background-color: lightblue;
+}
+body{
+    margin:0;
+}
+
+input,
+textarea{
+
+    transition:0.3s;
+
+}
+
+input:focus,
+textarea:focus{
+
+    outline:none;
+
+    border-color:#3b82f6;
+
+    box-shadow:0 0 10px rgba(59,130,246,.3);
+
+}
+#map{
+    height:100vh;
+}
